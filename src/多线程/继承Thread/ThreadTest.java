@@ -12,6 +12,10 @@ public class ThreadTest extends Thread {
 
   private List<Integer> list ;
 
+  public ThreadTest() {
+
+  }
+
   public List<Integer> getList() {
     return list;
   }
